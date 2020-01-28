@@ -3,6 +3,9 @@
     
     margin:auto;
 }
+#jesus{
+    text-align:right;
+}
 #boy{
     color: coral;
     font-size: 18pt;
@@ -11,10 +14,29 @@
     font-style: oblique;
     text-align: center;
 }
-#fucker{
+#fucker{    
     text-align: center;
+    
 }
-#name:hover
-{
+#name:hover{
     background-color: chartreuse;
+}
+#background{
+    background-color: black;
+}
+.button{
+        width: 240px;
+        height: 60px;
+        font-size: 16px;
+        text-align: center;
+        margin: 1px 120px;
+        border: brown;
+}
+.button:hover{
+        background-color: chartreuse;
+}
+#shitter{
+    text-align: left;
+   
+    
 }
