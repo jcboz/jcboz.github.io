@@ -4,7 +4,8 @@
     margin:auto;
 }
 #jesus{
-    text-align:right;
+    text-align:center;
+    margin: 40px 0px;
 }
 #boy{
     color: coral;
@@ -23,13 +24,16 @@
 }
 #background{
     background-color: black;
+    background-repeat: repeat;
+    border: 1px solid black;
+    margin-bottom: 1000px;
 }
 .button{
         width: 240px;
         height: 60px;
         font-size: 16px;
         text-align: center;
-        margin: 1px 120px;
+        margin: 1px 12%;
         border: brown;
 }
 .button:hover{
@@ -38,5 +42,4 @@
 #shitter{
     text-align: left;
    
-    
 }
