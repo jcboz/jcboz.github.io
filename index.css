@@ -1,9 +1,26 @@
+body{
+    background: black;
+}
+#newbody{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    overflow: scroll;
+    background: none;
+}
+
 #name {
     background-color: aquamarine;
-    
+    top: 0;
     margin:auto;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    text-align: center;
 }
 #jesus{
+    background: none;
     text-align:center;
     margin: 40px 0px;
 }
@@ -22,12 +39,7 @@
 #name:hover{
     background-color: chartreuse;
 }
-#background{
-    background-color: black;
-    background-repeat: repeat;
-    border: 1px solid black;
-    margin-bottom: 1000px;
-}
+
 .button{
         width: 240px;
         height: 60px;
@@ -42,4 +54,14 @@
 #shitter{
     text-align: left;
    
+}
+
+.parallax{
+    background-image: url("RadioAd8.png");
+    height: 10%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
 }
