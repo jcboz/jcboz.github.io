@@ -47,12 +47,15 @@ body{
         text-align: center;
         margin: 1px 12%;
         border: brown;
+        color: aquamarine;
+        background-color: aquamarine;
 }
 .button:hover{
         background-color: chartreuse;
 }
 #shitter{
     text-align: left;
+    color: aquamarine;
    
 }
 
