@@ -1,5 +1,7 @@
 body{
     background: black;
+    margin:0;
+    padding:0;
 }
 #newbody{
     height: 100%;
@@ -10,16 +12,27 @@ body{
     background: none;
 }
 
-#name {
-    background-color: aquamarine;
+.name {
+    background-color: #d6312b;
     top: 0;
     margin:auto;
     width: 100%;
     position: fixed;
     z-index: 2;
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.name a{
+    text-decoration: none;
+    color: rgb(211, 144, 99);
 }
 #jesus{
+    background: none;
+    text-align:center;
+    margin: 40px 0px;
+}
+#bruh{
     background: none;
     text-align:center;
     margin: 40px 0px;
@@ -41,21 +54,36 @@ body{
 }
 
 .button{
+        font-family: 'Courier New', Courier, monospace;
+        width: 240px;
+        height: 80px;
+        font-size: 30px;
+        text-align: center;
+        margin: 1% 2%;
+        border: brown;
+        background-color: rgb(211, 144, 99);
+        border-radius: 8px;
+}
+        
+.butt{
+        font-family: 'Courier New', Courier, monospace;
         width: 240px;
         height: 60px;
-        font-size: 16px;
+        font-size: 40px;
         text-align: center;
         margin: 1px 12%;
         border: brown;
-        color: aquamarine;
-        background-color: aquamarine;
+        background-color: rgb(211, 144, 99);
+        border-radius: 8px;       
 }
+
 .button:hover{
         background-color: chartreuse;
 }
-#shitter{
+.shitter{
     text-align: left;
-    color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+    
     
    
 }
